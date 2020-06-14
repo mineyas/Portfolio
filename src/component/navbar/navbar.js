@@ -7,7 +7,6 @@ class Navbar extends React.Component {
     render() {
     return (
         <div>
-        <div>aurelien gogol</div>
         <NavItem title="A Propos" to="apropos"/>
         <NavItem title="Compétences" to="competences"/>
         <NavItem title="Expériences" to="experiences"/>
