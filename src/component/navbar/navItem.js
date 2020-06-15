@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-scroll'
 
+import "./navbar.css";
+
 function NavItem (props){
     return (
-     <li>
+     <li className="nav-link">
             <Link 
                 activeClass="active" 
-                className="nav-link" 
                 to={props.to} 
                 spy={true} 
                 smooth={true} 

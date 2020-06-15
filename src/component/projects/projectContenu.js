@@ -3,7 +3,7 @@ import React from 'react'
 function ProjectContenu(props) {
     return (
         <div>
-            <img>{props.image}</img>
+            <img src={props.image}/>
             <a href={props.link}>
             <h3>{props.title}</h3>
             </a>

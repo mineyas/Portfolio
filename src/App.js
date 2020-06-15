@@ -5,10 +5,6 @@ import Experience from "./component/experience/experience";
 import Competence from "./component/competence/competence";
 import Project from "./component/projects/projects";
 import About from "./component/apropos/apropos";
-
-
-
-
 function App() {
   return (
     <div className="App">
