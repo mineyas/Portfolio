@@ -11,7 +11,7 @@ const Experience = () => {
             title="VYGON-SIPV, Ecouen"
             time="2016-2019"
             description="Management d'une équipe de 30 personnes, Formateur des nouveaux employés, Formateur aux nouvelles technologies et méthodes pour les employés confirmés et contrôle des produits finis"
-            /> hellooooo
+            />
         </Element>
 
     )
