@@ -18,13 +18,15 @@
   flex: 0 0 50%;
   max-width: 45%;
 }
-.content {
+/* .content {
   max-width: 370px;
-}
+} */
 .content-box {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 500px;
 }
 .resume-box {
   position: relative;
@@ -55,11 +57,12 @@
   letter-spacing: 1px;
 }
 .description h1 {
-  font-size: 36px;
+  font-size: 45px;
   text-align: center;
+  font-family: "PoppinsMedium";
 }
 .description h4 {
-  font-size: 19px;
+  font-size: 25px;
   font-weight: 300;
   text-align: center;
 }
@@ -68,4 +71,103 @@ hr {
 }
 .box-icon img {
   width: 40px;
+}
+.projectcontainer {
+    width: 100%;
+}
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.modal-icon {
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 50px;
+}
+.exit {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+}
+.exit-modal {
+  cursor: pointer;
+  position: absolute;
+  right: 180px;
+  font-size: 20px;
+}
+.exit:hover {
+  opacity: 0.8;
+}
+.icon-one {
+  width: 65px;
+}
+.icon-one:hover {
+  opacity: 0.8;
+}
+
+.icon-two {
+  width: 76px;
+}
+.icon-two:hover {
+  opacity: 0.8;
+}
+.icon-data {
+  width: 72px;
+}
+.icon-data:hover {
+  opacity: 0.8;
+}
+.icon-three {
+  width: 80px;
+}
+.icon-three:hover {
+  opacity: 0.8;
+}
+.modal-title {
+  font-family: "PoppinsLight";
+  font-size: 30px;
+  text-align: justify;
+}
+
+.modal-contain {
+  font-size: 20px;
+  font-family: "PoppinsExtralight";
+  text-align: justify;
+}
+.modal-contain-two {
+  font-size: 20px;
+  font-family: "PoppinsExtralight";
+  text-align: right;
+  padding-bottom: 50px;
+}
+.about-p {
+  font-family: "PoppinsExtralight";
+  font-size: 20px;
+  text-align: justify;
+}
+.about-p-two {
+  font-family: "PoppinsExtralight";
+  font-size: 20px;
+  text-align: right;
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  .box {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .resume {
+    max-width: none;
+  }
 }

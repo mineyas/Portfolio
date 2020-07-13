@@ -5,6 +5,31 @@
     min-height: 100vh;
     background-repeat: repeat;
 } */
+@font-face {
+    font-family: "PoppinsExtralight";
+    src: url("./Font/Poppins-ExtraLight.ttf")
+    
+  }
+@font-face {
+    font-family: "PoppinsThin";
+    src: url("./Font/Poppins-Thin.ttf")
+    
+  }
+  @font-face {
+    font-family: "PoppinsLight";
+    src: url("./Font/Poppins-Light.ttf")
+    
+  }
+  @font-face {
+    font-family: "PoppinsMedium";
+    src: url("./Font/Poppins-Medium.ttf")
+    
+  }
+  @font-face {
+    font-family: "PoppinsBold";
+    src: url("./Font/Poppins-Bold.ttf")
+    
+  }
 body{
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     color: white;
